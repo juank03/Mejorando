@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Producto Nuevo</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+</head>
+
+
+<body class="bg-secondary">
+  <header><h1 class="text-center">Ferreteria Kodigo</h1></header>
+  <br><br>
+
+
+    <form class="row g-3 needs-validation" novalidate>
+      <div class="col-md-4">
+        <label for="validationCustom01" class="form-label"> <h5 class="text-warning">Codigo</h5></label>
+        <input type="text" class="form-control" id="validationCustom01" required>
+        <div class="valid-feedback">
+          <h6 class="text-danger">Ingrese el codigo del producto!</h6>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <label for="validationCustom01" class="form-label"> <h5 class="text-warning">Descripcion</h5></label>
+        <input type="text" class="form-control" id="validationCustom01" required>
+        <div class="valid-feedback">
+          <h6 class="text-danger">Describa el producto!</h6>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <label for="validationCustom01" class="form-label"> <h5 class="text-warning">Codigo de Barra</h5></label>
+        <input type="text" class="form-control" id="validationCustom01" required>
+        <div class="valid-feedback">
+          <h6 class="text-danger">Ingrese el codigo de barra!</h6>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <label for="validationCustom02" class="form-label"> <h5 class="text-warning">Precio Unitario</h5></label>
+        <input type="text" class="form-control" id="validationCustom02" required>
+        <div class="valid-feedback">
+          <h6 class="text-danger">Ingrese el precio!</h6>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <label for="validationCustom02" class="form-label"> <h5 class="text-warning">Stock</h5></label>
+        <input type="text" class="form-control" id="validationCustom02" required>
+        <div class="valid-feedback">
+          <h6 class="text-danger">Esta disponible!</h6>
+        </div>  
+      </div>
+      <div class="col-md-4">
+        <label for="validationCustom02" class="form-label"> <h5 class="text-warning">Proveedor</h5></label>
+        <input type="text" class="form-control" id="validationCustom02" required>
+        <div class="valid-feedback">
+          <h6 class="text-danger">Cliente!</h6>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <label for="validationCustom04" class="form-label"> <h5 class="text-warning">Categoria</h5></label>
+        <select class="form-select" id="validationCustom04" required>
+          <option selected disabled value="">Elegir</option>
+          <option>Categoria 1</option>
+          <option>Categoria 2</option>
+          <option>Categoria 3</option>
+          <option>Categoria 4</option>
+        </select>
+        <div class="valid-feedback">
+          <h6 class="text-danger">Calidad del producto!</h6>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <label for="validationCustom02" class="form-label"> <h5 class="text-warning">Estado</h5></label>
+        <input type="checkbox" class="form-check" id="needs-validation" required>Activo
+        <div class="valid-feedback">
+          <h6 class="text-danger">Disponible!</h6>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+          <label class="form-check-label" for="invalidCheck">
+            <h6 class="text-danger">Acepta buscar en la base de datos!</h6>
+          </label>
+          <div class="invalid-feedback">
+            <h6 class="text-danger">Debe aceptar el campo.</h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-12">
+        <button class="btn btn-success" type="submit">Submit form</button>
+      </div>
+    </form>
+
+</body>
+</html>
+<script src="js/bootstrap.min.js"></script>
+    <script src="productonuevo.js"></script>
+
+    
